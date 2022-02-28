@@ -20,7 +20,13 @@ module.exports = {
   solidity: "0.8.4",
   networks: {
     hardhat: {
-      chainid: 1337,
+      chainId: 1337,
+    },
+    ropsten: {
+      url: "https://ropsten.infura.io/v3/c2b8c977c29c484f883d6f46bd4f1632",
+      accounts: [
+        `0x${`0a33b3182233bad340f4698b892ea0f30d0ee4ecb99758e691a637a147428f10`}`,
+      ],
     },
   },
 };
